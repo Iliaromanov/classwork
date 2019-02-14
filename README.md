@@ -35,15 +35,15 @@ print("_"*60)
 print("please enter your name:")
 
 name = input()
-#print(f"Hello {name}, what's up?")
+print(f"Hello {name}, nice to meet you?")
 
-print(f"{name}, how are you feeling")
-# mood = input()
+print(f"{name}, how are you feeling today? (good or bad)")
+mood = input()
 
-#if mood == "good":
-#  print("Wow, thats great!")
-#if mood == "bad":
-#  print("Its ok, don't worry")
+if mood == "good":
+  print("Wow, thats great!")
+if mood == "bad":
+  print("Its ok, tomorrow will be better!")
 
 
 print("_"*60)
@@ -59,4 +59,33 @@ length = input()
 length = int(length)
 
 area = length * width
-print(f"The area of your room is {area}")
+print(f"The area of your room is {area} squre meters")
+
+print("_"*60)
+
+# Excercise 4
+
+
+print("_"*60)
+
+# Excercise 5
+
+print("What amount of drink containers holding 1L or less are you recycling?")
+
+less_deposit = input()
+
+less_deposit = int(less_deposit)
+amount_recieved_for_1L_or_less = less_deposit * 0.10
+
+print("Okay. Now What amount of drink containers holding more than 1L are you recycling?")
+
+more_deposit = input()
+
+more_deposit = int(more_deposit)
+
+amount_recieved_for_more_than_1L = more_deposit * 0.25
+
+total_refund_amount = amount_recieved_for_more_than_1L + amount_recieved_for_1L_or_less
+
+print(f"Your total refund amount is $%.2f"% total_refund_amount)
+
