@@ -65,6 +65,19 @@ print("_"*60)
 
 # Excercise 4
 
+print("What is the width of your field?")
+
+width = float(input("width:"))
+
+print("what is the length of your field?")
+
+length = float(input("length:"))
+
+sqr_ft = length * width
+
+acres = sqr_ft / 43560
+
+print(f"The field is {round(acres, 4)} acres")
 
 print("_"*60)
 
