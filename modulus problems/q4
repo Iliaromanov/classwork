@@ -1,1 +1,9 @@
+# Problem 4
 
+total_cents = 101
+
+dollars = total_cents // 100
+
+cents = total_cents % 100
+
+print(f"dollars:{dollars}, cents:{cents}")
