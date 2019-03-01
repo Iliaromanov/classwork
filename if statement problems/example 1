@@ -1,1 +1,10 @@
+# Excercise 34
 
+print("please state an integer value")
+
+num = int(input("Integer:")) 
+
+if num % 2 == 1:  
+ print(f"{num} is odd")
+else:
+  print(f"{num} is even")
