@@ -1,0 +1,11 @@
+# Excersise 35
+
+h_years = int(input("Number of human years:"))
+
+if h_years <= 2:
+  dog = h_years * 10.5
+
+else:
+  dog = 21+ ((h_years-2) + h_years * 4)
+
+print(f"The amount of dog years is {dog}")
