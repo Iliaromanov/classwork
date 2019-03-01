@@ -1,0 +1,10 @@
+# Excercise 36
+
+letter = str(input("Letter:"))
+
+if letter == "a" or letter== "e" or letter == "i" or letter == "o" or letter== "u":
+  print("this letter is a vowel.")
+elif letter == "y":
+  print("sometimes y is a vowel and sometimes it is a consonant")
+else:
+  print("this letter is a consonant.")
