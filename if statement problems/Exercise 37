@@ -1,0 +1,34 @@
+# Exercise 37
+
+print("Please enter the amount of sides your shape has(3-10)")
+
+print(" ")
+
+sides = int(input("Number of Sides:"))
+
+if sides == 3:
+  print("This shape is a triangle")
+
+elif sides == 4:
+  print("This shape is a rectangle")
+
+elif sides == 5:
+  print("This shape is a pentagon")
+
+elif sides == 6:
+  print("This shape is a hexagon")
+
+elif sides == 7:
+  print("This shape is a heptagon")
+
+elif sides == 8:
+  print("This shape is an octagon")
+
+elif sides == 9:
+  print("This shape is a nonagon")
+
+elif sides == 10:
+  print("This shape is a decagon")
+
+else:
+  print("To name a shape with a number of sides greater than 10 just state the number of sides and add the suffix 'gon' at the end.")
