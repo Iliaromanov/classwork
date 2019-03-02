@@ -1,4 +1,4 @@
-# Excersise 35
+# Exercise 35
 
 h_years = int(input("Number of human years:"))
 
