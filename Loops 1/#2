@@ -1,0 +1,7 @@
+# Problem 2
+
+numbers = [1, 11, 6, 3, 15, 74, 243]
+
+for num in numbers:
+  if num > 10:
+    print(num)
