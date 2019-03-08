@@ -1,0 +1,11 @@
+# Problem 1
+
+print("Enter a word:")
+
+word = input("Word:")
+
+vowel = 'a', 'e', 'i', 'u', 'y'
+
+for char in word:
+  if char not in vowel:
+    print(char)
