@@ -1,0 +1,11 @@
+
+# problem 3
+
+numbers = [1, 435, 2, 20873, 1230, 4, 27]
+
+maximum = 0
+
+for num in numbers:
+  if num > maximum:
+    maximum = num
+print(maximum)
