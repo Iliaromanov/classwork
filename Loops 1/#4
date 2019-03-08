@@ -1,0 +1,5 @@
+#problem 4
+
+name = input("Name:")
+for i in range(len(name)):
+  print(f"index: {i}, char: {name[i]}")
