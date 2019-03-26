@@ -1,0 +1,58 @@
+#1 
+my_str = input("Enter a word:")
+
+i = 0
+
+while i < len(my_str):
+  char = my_str[i]
+  print(char)
+  i += 1
+
+
+#2
+
+numbers = [2, 3, 4 , 543]
+
+i = 0
+
+while i < len(numbers): 
+  num = numbers[i]
+  i += 1
+  print(num)
+
+
+#3
+
+marks = [84, 89, 90, 45, 67]
+
+i = 0
+
+while i < len(marks):
+  print(marks[i])
+  i += 1
+
+#4
+
+i = 0
+
+while i in range(10):
+  print(i)
+  i += 1
+
+
+#5
+
+i = 5
+
+while i in range(5, 500, 5):
+  print(i)
+  i += 5
+
+
+#6
+
+i = 100
+
+while i in range(100, -1, -5):
+  print(i)
+  i -= 5
