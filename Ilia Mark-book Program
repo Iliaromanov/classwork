@@ -99,9 +99,12 @@ while exit != "yes":
         print(report)
 
 
+#This part only works if all options in the menu have been chosen.
+"""
 print(f"Students: {students}")
 print(f"Marks: {marks}")
 print(f"Class Average: {average}")
 print(f"Marks at risk: {at_risk}")
 print(f"Highest Mark: {max_avrg}")
 print(f"Final Report: {report}")
+"""
